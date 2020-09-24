@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Memory Game</title>
+</head>
+
+<body>
+    <!-- Game Title and counter section -->
+    <div class="wrapper">
+        <h1>Memory Game</h1>
+        <h2>Test your memory skills!</h2>
+
+        <button type="button" class="btn btn-danger" id="restart">
+            Restart Game
+        </button>
+
+        <!-- Score & Timer -->
+        <!-- <section class="score-panel"> -->
+        <span class="moves">Moves: 0</span>
+
+        <div class="timer">Time: 00:00</div>
+        <!-- </section> -->
+    </div>
+
+    <section class="memory-game">
+        <!-- Card 1 -->
+        <div class="memory-card" data-framework="pin7">
+            <img class="front-face" src="img/Pin7.png" alt="pin7" />
+            <img class="back-face" src="img/Blank.png" alt="Blank" />
+        </div>
+        <div class="memory-card" data-framework="pin7">
+            <img class="front-face" src="img/Pin7.png" alt="pin7" />
+            <img class="back-face" src="img/Blank.png" alt="Blank" />
+        </div>
+
+        <!-- Card 2 -->
+        <div class="memory-card" data-framework="man2">
+            <img class="front-face" src="img/Man2.png" alt="man2" />
+            <img class="back-face" src="img/Blank.png" alt="Blank" />
+        </div>
+        <div class="memory-card" data-framework="man2">
+            <img class="front-face" src="img/Man2.png" alt="man2" />
+            <img class="back-face" src="img/Blank.png" alt="Blank" />
+        </div>
+
+        <!-- Card 3 -->
+        <div class="memory-card" data-framework="man1">
+            <img class="front-face" src="img/Man1.png" alt="man1" />
+            <img class="back-face" src="img/Blank.png" alt="Blank" />
+        </div>
+        <div class="memory-card" data-framework="man1">
+            <img class="front-face" src="img/Man1.png" alt="man1" />
+            <img class="back-face" src="img/Blank.png" alt="Blank" />
+        </div>
+
+        <!-- Card 4 -->
+        <div class="memory-card" data-framework="sou1">
+            <img class="front-face" src="img/Sou1.png" alt="sou1" />
+            <img class="back-face" src="img/Blank.png" alt="Blank" />
+        </div>
+        <div class="memory-card" data-framework="sou1">
+            <img class="front-face" src="img/Sou1.png" alt="sou1" />
+            <img class="back-face" src="img/Blank.png" alt="Blank" />
+        </div>
+
+        <!-- Card 5 -->
+        <div class="memory-card" data-framework="man8">
+            <img class="front-face" src="img/Man8.png" alt="man8" />
+            <img class="back-face" src="img/Blank.png" alt="Blank" />
+        </div>
+        <div class="memory-card" data-framework="man8">
+            <img class="front-face" src="img/Man8.png" alt="man8" />
+            <img class="back-face" src="img/Blank.png" alt="Blank" />
+        </div>
+
+        <!-- Card 6 -->
+        <div class="memory-card" data-framework="hatsu">
+            <img class="front-face" src="img/Hatsu.png" alt="hatsu" />
+            <img class="back-face" src="img/Blank.png" alt="Blank" />
+        </div>
+        <div class="memory-card" data-framework="hatsu">
+            <img class="front-face" src="img/Hatsu.png" alt="hatsu" />
+            <img class="back-face" src="img/Blank.png" alt="Blank" />
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
